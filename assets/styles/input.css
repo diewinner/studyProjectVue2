@@ -1,0 +1,28 @@
+.custom_input {
+  appearance: none;
+  outline: none;
+  border: 1px solid #ADB3BB;
+  border-radius: 10px;
+  background: #FFF;
+  padding: 13px;
+  text-align: center;
+
+  &:focus {
+    border: 1px solid #FA9009;
+    box-shadow: 0 2px 4px 0 rgba(250, 144, 9, 0.30);
+  }
+
+}
+
+.validator_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.error_message {
+  color:red;
+  font-weight: 500;
+}
+
+

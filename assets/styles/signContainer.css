@@ -1,0 +1,58 @@
+.sign_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.sign_wrapper {
+  width: 40%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.sign_inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 55%;
+}
+
+.title {
+  color: #475466;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 30px;
+  font-weight: 700;
+}
+@media (max-width: 1300px) {
+  .sign_wrapper {
+    width: 60%;
+  }
+}
+@media (max-width: 1000px) {
+  .sign_wrapper {
+    width: 70%;
+  }
+}
+@media (max-width: 800px) {
+  .sign_wrapper {
+    width: 80%;
+  }
+}
+@media (max-width: 700px) {
+  .sign_wrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .sign_inputs {
+    width: 80%;
+  }
+}

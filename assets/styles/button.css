@@ -1,0 +1,38 @@
+.custom_btn {
+  cursor: pointer;
+  padding: 0.5em 1em;
+  border:none;
+  background: #FA9009;
+  border-radius: 10px;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  max-width: fit-content;
+  position: relative;
+  transition: all .3s;
+  box-shadow: 0 2px 4px 0 rgba(165, 163, 174, 0.30);
+  color: #FFF;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 13px;
+  font-weight: 500;
+}
+.custom_btn:hover {
+  box-shadow: 0 4px 14px 0 rgba(250, 144, 9, 0.38);
+}
+
+
+
+.nuxt_link {
+  color: #475466;
+  text-decoration: none;
+  font-weight: 700;
+  transition: all .3s ease;
+  cursor: pointer;
+  &:hover {
+    color: #FA9009;
+  }
+}
+@media (max-width: 350px) {
+  .custom_btn {
+    max-width: 70%;
+  }
+}

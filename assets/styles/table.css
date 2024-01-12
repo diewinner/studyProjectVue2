@@ -1,0 +1,13 @@
+.table_title {
+  color: #334155;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.table_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
